@@ -1,0 +1,18 @@
+.bubble {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #ffffff, #cccccc);
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+  }
+  
+  .bubble:hover {
+    transform: scale(1.1);
+  }
+  
+  .popped {
+    background: #e0e0e0;
+  }
+  
