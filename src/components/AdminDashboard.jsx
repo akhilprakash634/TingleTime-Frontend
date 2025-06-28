@@ -11,7 +11,7 @@ function AdminDashboard() {
         <UploadDialogueForm />
       </div>
 
-      <div className={styles.section}>
+      <div className={styles.section}> 
         <DialogueList />
       </div>
     </div>
